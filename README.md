@@ -44,6 +44,7 @@ Review Model (Books review)
   review: {string, optional}
   isDeleted: {boolean, default: false},
 }
+  ```
 User APIs
 POST /register
 Create a user - atleast 5 users
@@ -118,6 +119,7 @@ Refer below sample A Postman collection and request sample
 
 Response
 Successful Response structure
+```javascript
 {
   status: true,
   message: 'Success',
