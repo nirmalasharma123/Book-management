@@ -5,6 +5,7 @@ This time each group should have a single git branch. Coordinate amongst yoursel
 Follow the naming conventions exactly as instructed.
 Models
 User Model
+``` javascript
 { 
   title: {string, mandatory, enum[Mr, Mrs, Miss]},
   name: {string, mandatory},
@@ -267,3 +268,4 @@ Book details response no reviews
     "reviewsData": []
   }
 }
+```
